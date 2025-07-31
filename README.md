@@ -15,7 +15,7 @@ Golang 单元测试在简洁性、高效性和丰富的工具链方面具备显�
 + [gomega](https://github.com/onsi/gomega)
 
 ## 单测场景
-### 1**、表格驱动测试**
+### 1、表格驱动测试
 表格驱动测试(Table-Driven Testing)将测试数据与测试逻辑分离，通常用结构体定义输入参数、预期输出和测试条件，逐条对测试用例进行验证，使测试代码更清晰，也能很方便的添加测试场景，更容易达到高测试覆盖率。
 
 ```go
@@ -126,7 +126,7 @@ func TestFormatSize(t *testing.T) {
 
 [https://go.dev/wiki/LoopvarExperiment](https://go.dev/wiki/LoopvarExperiment)
 
-### 3、子测试**（Subtests）**
+### 3、子测试（Subtests）
 子测试 Subtest（包含基准测试）是在单个测试函数中创建嵌套的测试层次结构来定义子测试和子基准测试，而不必为每个子测试和子基准测试定义单独的函数，每个子测试和子基准测试都有一个唯一的名称。
 
 ```go
@@ -799,12 +799,12 @@ $ gotestsum --format testname
 ```
 
 ## 参考
-[https://go.dev/doc/tutorial/add-a-test](https://go.dev/doc/tutorial/add-a-test)
-[https://pkg.go.dev/cmd/go#hdr-Testing_flags](https://pkg.go.dev/cmd/go#hdr-Testing_flags)
-[https://pkg.go.dev/testing](https://pkg.go.dev/testing)
-[https://pkg.go.dev/testing/iotest](https://pkg.go.dev/testing/iotest)
-[https://pkg.go.dev/net/http/httptest](https://pkg.go.dev/net/http/httptest)
-[https://github.com/uber-go/mock](https://github.com/uber-go/mock)
-[https://github.com/agiledragon/gomonkey](https://github.com/agiledragon/gomonkey)
-[https://github.com/prashantv/gostub](https://github.com/prashantv/gostub)
-[https://github.com/DATA-DOG/go-sqlmock](https://github.com/DATA-DOG/go-sqlmock)
+- [https://go.dev/doc/tutorial/add-a-test](https://go.dev/doc/tutorial/add-a-test)
+- [https://pkg.go.dev/cmd/go#hdr-Testing_flags](https://pkg.go.dev/cmd/go#hdr-Testing_flags)
+- [https://pkg.go.dev/testing](https://pkg.go.dev/testing)
+- [https://pkg.go.dev/testing/iotest](https://pkg.go.dev/testing/iotest)
+- [https://pkg.go.dev/net/http/httptest](https://pkg.go.dev/net/http/httptest)
+- [https://github.com/uber-go/mock](https://github.com/uber-go/mock)
+- [https://github.com/agiledragon/gomonkey](https://github.com/agiledragon/gomonkey)
+- [https://github.com/prashantv/gostub](https://github.com/prashantv/gostub)
+- [https://github.com/DATA-DOG/go-sqlmock](https://github.com/DATA-DOG/go-sqlmock)
